@@ -1,16 +1,17 @@
-import './Header.css';
 import Button from '@material-ui/core/Button';
+import './css/Header.css';
+
 
 function Header() {
   return (
     <div className="Header">
       <div className="Nav"> 
           <div className="nameText"> 
-            Silas Paaske 
+            Silas Paaske Nielsen
           </div>
           <div className="navButtons">
-            <Button> Projects </Button>
-            <Button> About me </Button>
+            <Button color="inherit"> Projects </Button>
+            <Button color="inherit"> About me </Button>
 
           </div>          
         </div>

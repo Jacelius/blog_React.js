@@ -1,0 +1,12 @@
+.aboutMe{
+    border-style: solid;
+    border-color: #ADB5BD;
+    border-width: 0.25rem;
+    border-right: #343A40;
+    border-left: #343A40;
+    margin-top: 5%;
+    height: 2000px;
+    text-align: center;
+    font-size: 3rem;
+    color: #E9ECEF;
+}

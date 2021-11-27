@@ -19,6 +19,12 @@
   padding-left: 2rem;
 }
 
+.Button {
+  color: #DEE2E6;
+  height: 100%+1rem;
+  width: 100%+1rem;
+}
+
 .navButtons {
   display: flex;
   height: 100%;
@@ -28,32 +34,6 @@
 }
 
 
-@media (prefers-reduced-motion: no-preference) {
-  .Header-logo {
-    animation: Header-logo-spin infinite 20s linear;
-  }
-}
-
-.Header-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.Header-link {
-  color: #61dafb;
-}
-
-@keyframes Header-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cultured {
+  color: #F8F9FA;
 }
