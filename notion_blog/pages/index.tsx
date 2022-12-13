@@ -8,7 +8,7 @@ const Home = ({posts}) => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>My Notion Blog</title>
+        <title>Silas' descent into madness  </title>
         <meta
           name="description"
           content="Notion blog generated from Notion API"
@@ -17,7 +17,7 @@ const Home = ({posts}) => {
       </Head>
 
       <main className={styles.main}>
-        <h1>My Notion Blog</h1>
+        <h1>Silas' descent into madness</h1>
         <ul>
           {posts.map(({ id, title }) => (
             <li key={id}>{title}</li>
